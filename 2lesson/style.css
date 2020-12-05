@@ -1,0 +1,44 @@
+.st {
+    background-color: green;
+    font-size: 20px;
+
+}
+.hd{
+    background-color: purple;
+    font-size: 20px;
+
+}
+td{
+    background-color: red;
+}
+.ph{
+    width: 50px;
+    height: 50px;
+    
+}
+table{
+    height: 90vh;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+h1{
+    font-size: 50PX;
+
+    margin: 0;
+}
+td:hover{
+    transition: 1s;
+    transform: scale(1.01);
+    background-color:white;
+    color:black;
+}
+td{
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 200px;
+    background: linear-gradient(to top left, powderblue, pink);
+}
