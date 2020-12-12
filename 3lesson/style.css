@@ -1,0 +1,50 @@
+.header{
+    height: 300px;
+    line-height: 300px;
+    background-color: orange;
+    /* display: inline-block;
+    margin: -4px; */
+}
+.nav{
+    height: 500px;
+    line-height: 300px;
+    /* display: inline-block;
+    float: left;
+    width: 50%;
+    margin: -4px; */
+}
+.blocks{
+    height: 500px;
+    display: inline-block;
+    width: 50%;
+    margin: -4px;
+}
+.footer{
+    height: 200px;
+    line-height: 300px;
+}
+.footers{
+    height: 200px;
+    display: inline-block;
+    width: 33.3%;
+    margin: -4px;
+}
+#ff{
+     background-color: red;
+}
+#sf{
+    background-color: yellow;
+}
+#tf{
+    background-color: purple;
+}
+#fb{
+    background-color: blue;
+}
+#sb{
+    background-color: green;
+}
+div{
+    text-align: center;
+    box-sizing: border-box;   
+}
