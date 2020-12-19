@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.w100{
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 750px;
+    background-image: url(./img/andrik-langfield-AAfC-hQpyWM-unsplash.jpg);
+    background-size: contain;
+}
+
+.headercover {
+    width: 100%;
+    height: 750px;
+    background-color: rgb(89, 89, 233);
+    position: absolute;
+    z-index: 1;
+    opacity: 0.75;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header-top {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    text-transform: uppercase;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+}
+
+.header-main {
+    width: 100%;
+    height: 650px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 65px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    width: 1000px;
+    margin: 0 auto;
+}
+.hp{
+    color: white;
+    width: 912px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 41px;
+    font-size: 22px;
+    margin-bottom: 76px;
+}
+a{
+    padding: 15px 35px;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 600px;
+    list-style: none;
+}
+.name{
+    font-size: 25px;
+}
+.nav{
+    width: 100%;
+    height: 690px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.nav-main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: space-between;
+    flex-wrap: wrap;
+}
+.blocks{
+    width: 296px;
+    height: 186px;
+    margin-right: 94px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.phmain{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 34px;
+}
+.text-main{
+    color: #6C7279;
+    font-size: 14;
+    text-align: center;
+
+}
